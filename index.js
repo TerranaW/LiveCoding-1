@@ -23,3 +23,7 @@ function linearSearch(arr, target) {
       }     
     }
 
+const angka = [8 ,3 ,9 ,2 ,5];
+console.log (linearSearch(angka,3));
+console.log (linearSearch(angka,1));
+console.log (linearSearch(angka,h));
