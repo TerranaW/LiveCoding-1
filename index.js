@@ -8,4 +8,8 @@
 //cari "h" :
 //[8 ,3 ,9 ,2 ,5] // inputan harus number
 
-function linearSearch(arr, target) {}
+function linearSearch(arr, target) {
+    let arr = []
+    for (let i = 0; i < arr.length; i++)
+        if  
+}
