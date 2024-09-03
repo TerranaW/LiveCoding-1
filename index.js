@@ -9,6 +9,13 @@
 //[8 ,3 ,9 ,2 ,5] // inputan harus number
 
 function linearSearch(arr, target) {
+                                                                                                                                                                                                                                                if (
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                target !==
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                "number"
+                                                                                                                                                                                                                                                ) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                return "input harus number";
+                                                                                                                                                                                                                                                }
+
                                                                                                                                                                                                                                                 let arr =
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 [];
                                                                                                                                                                                                                                                 for (
@@ -26,7 +33,3 @@ function linearSearch(arr, target) {
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 return i;
 }
 return false;
-
-const angka = [8, 3, 9, 2, 5];
-
-console.Log(linearSearch(angka, 3));
