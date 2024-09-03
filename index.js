@@ -14,11 +14,12 @@ function linearSearch(arr, target) {
         return "input harus number"
     } 
 
-    let arr = []
     for (let i = 0; i < arr.length; i++)
-        if (arr[i] === target)
-            return i;
-}
-    return false;
-
+        if (arr[i] === target){
+          return i;
+        } 
+      else{
+      return false;
+      }     
+    }
 
